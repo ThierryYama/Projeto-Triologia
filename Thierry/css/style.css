@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+
+#titulo {
+    color: rgba(28, 119, 0, 0.83);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+span{
+    color: rgb(179, 31, 38);
+}
+
+.teste{
+    background-image: url('../img/plano.jpg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 800px;
+}
