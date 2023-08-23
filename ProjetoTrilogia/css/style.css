@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+    *{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(223, 213, 213);
+}
+
+
+.banner{
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-image: url(../img/banner.webp);
+    background-size:cover;
+    height: 250px;
+    width: auto;
+}
+
+.banner h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight:bold;
+    color: black;
+}
+
+.banner p{
+    text-align:center;
+    font-size: 20px;
+    color: rgba(8, 7, 7, 0.829);
+
+}
+
+
+.secao-temp{
+    background-color: aliceblue;
+}
+
+.secao-titulo{
+    text-align:start;
+    font-size:20px ;
+}
+
+.secao-subtitulo{
+    text-align: start;
+    font-size: 18px;
+}
+
+.secao-descricao{
+    font-size: 15px;
+    text-align: start;
+}
+
+
