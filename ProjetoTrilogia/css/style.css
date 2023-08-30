@@ -1,70 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-    *{
+* {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
+    background-color: black;
+    height: 100px;
+
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
+    padding: 30px 300px 10px 200px;
+    margin-bottom: 10px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: white;
-    background-color: black;
+    font-size: 30px;
 }
 
 
-.banner{
-    background-color: aliceblue;
+.banner {
     background-repeat: no-repeat;
     background-image: url(../img/banner3.jpg);
-    background-size:cover;
+    background-size: cover;
     height: 300px;
     width: auto;
-    
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-.banner h1{
-    font-size: 30px;
+.banner h1 {
+    background-color: rgba(176, 179, 182, 0.527);
+    font-size: 70px;
     text-align: center;
-    font-weight:bold;
-    color: white
-}
-
-.banner p{
-    text-align:center;
-    font-size: 25px;
-    color: rgb(235, 220, 220);
     font-weight: bold;
+    color: rgb(8, 8, 8);
+}
+
+.banner p {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    margin-bottom: 50px;
+    background-color: rgba(176, 179, 182, 0.527);
+    margin-top: 150px;
 
 }
 
 
-.secao-temp{
+.secao-temp {
     background-color: aliceblue;
+    margin-top: 30px;
+    border: 5px solid black;
+    border-radius: 20px;
 }
 
-.secao-titulo{
-    text-align:start;
-    font-size:20px ;
-}
-
-.secao-subtitulo{
+.secao-titulo {
     text-align: start;
-    font-size: 18px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
-.secao-descricao{
-    font-size: 15px;
+.secao-subtitulo {
     text-align: start;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.secao-descricao {
+    font-size: 20px;
     text-align: justify;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
-.link{
+.link {
+    margin-left: 20px;
+    margin-bottom: 20px;
     text-decoration: none;
+    font-size: 23px;
+    border: 30px black;
+    border-radius: 20px;
+}
+
+.imagem {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
 }
