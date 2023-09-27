@@ -33,9 +33,6 @@ nav ul li a {
     background-size: cover;
     height: 300px;
     width: auto;
-    margin: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
 }
 
 .banner h1 {
@@ -51,41 +48,33 @@ nav ul li a {
     font-size: 25px;
     color: rgb(8, 8, 8);
     font-weight: bold;
-    margin-bottom: 50px;
     background-color: rgba(176, 179, 182, 0.527);
     margin-top: 150px;
-
 }
 
 
 .secao-temp {
     background-color: aliceblue;
-    border: 5px solid black;
-    height: 800px;
+    border: 2px solid black;
+    height: 750px;
 }
 
 .secao-titulo {
     text-align: start;
     font-size: 35px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 20px 0px 20px 20px
 }
 
 .secao-subtitulo {
     text-align: start;
     font-size: 25px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-
+    margin: 0px 0px 20px 20px;
 }
 
 .secao-descricao {
     font-size: 20px;
     text-align: justify;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin: 0px 20px 20px 20px;
 }
 
 .link {
@@ -95,8 +84,7 @@ nav ul li a {
 }
 
 .imagem {
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 0px 0px 20px 20px;
     width: 300px;
     border: 3px solid black;
     border-radius: 20px;
